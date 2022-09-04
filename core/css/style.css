@@ -1066,7 +1066,7 @@ table {
 
 table td,
 table th {
-  padding: 7px;
+  padding: p;
   border: 1px solid #eaeaea;
 }
 

@@ -157,6 +157,37 @@ td.comic_navi {
 	margin: 0 auto!important;
 }
 
+#mobile {
+	background: #03899c;
+	width: 100%;
+	margin: 0 auto;
+	 text-align:center;
+}
+
+
+#mobile li {
+	display: inline;
+	list-style: none;
+	margin-right: .50em;
+}
+
+#mobile li:first-child {
+	margin-left: 0;
+}
+
+#mobile li a {
+	color: #ffffff;
+	font-weight: bold;
+	font-size:.9em;
+}
+
+
+@media screen and (max-width: 750px) {
+	.hide-mobile {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 650px) {
     
 	.navi {
@@ -165,6 +196,12 @@ td.comic_navi {
 
 	.navi-first-in, .navi-last-in, .navi-last, .navi-first {
 		display: none!important;
+	}
+}
+
+@media (min-width: 750px) {
+	#mobile {
+		display: none;
 	}
 }
 
